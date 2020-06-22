@@ -1,3 +1,5 @@
-# Introduction
+# The Gizra Way Style Guide
 
-Add your intro copy in `./pages/intro.md` or alternatively if you do not want a intro (or any other) page set `content` in your `data.json` file to `null`.
+This book is the definitive guide to the Gizra Way Styles.
+
+The idea is a place for every Gizra developer to go - to better understand Gizra Way opinions on common markup and style components.
