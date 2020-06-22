@@ -38,7 +38,7 @@
     "font_libraries": {
         "typekit_code": null,
         "typography_web_fonts": null,
-        "google_web_fonts": null
+        "google_web_fonts": "https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700"
     },
     "content": {
         "show_first_page_on_load": true,
