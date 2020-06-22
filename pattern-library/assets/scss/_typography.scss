@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Gotham Book';
+  src:  url("../fonts/gotham/gotham-book-webfont.otf") format("opentype"),
+  url("../fonts/gotham/gotham-book-webfont.ttf") format("trutype"),
+  url("../fonts/gotham/gotham-book-webfont.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:  url("../fonts/gotham/gotham-medium-webfont.otf") format("opentype"),
+  url("../fonts/gotham/gotham-medium-webfont.ttf") format("truetype"),
+  url("../fonts/gotham/gotham-medium-webfont.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:  url("../fonts/gotham/gotham-bold-webfont.otf") format("opentype"),
+  url("../fonts/gotham/gotham-bold-webfont.ttf") format("truetype"),
+  url("../fonts/gotham/gotham-bold-webfont.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body  {
+    font-family: $primary-font;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+    color: $black-text;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Gotham Medium", serif;
+  color: $turquoise;
+}
+
+h1 {
+  font-size: $h1-size;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: $h2-size;
+  line-height: 1;
+  letter-spacing: -0.32px;
+}
+
+h3 {
+  font-size: $h3-size;
+  line-height: 1;
+}

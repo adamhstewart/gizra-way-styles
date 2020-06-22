@@ -1,0 +1,41 @@
+* {
+ box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+.layout-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 170px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
+.region-content {
+  margin: 0 auto;
+  max-width: $layout-container;
+  padding: 0 20px;
+}
+
+.region-header,
+.region-footer {
+  margin: 0 auto;
+  max-width: $header-container;
+  padding: 0 20px;
+}

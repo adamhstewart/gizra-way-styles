@@ -1,0 +1,15 @@
+// User Menu
+nav.menu--account ul.menu {
+  display: flex;
+  font-family: $header-font;
+  margin: 0;
+  text-transform: uppercase;
+
+  a.is-active {
+    color: $white;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+}

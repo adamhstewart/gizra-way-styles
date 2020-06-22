@@ -1,0 +1,21 @@
+// Branding Block
+.block-system-branding-block {
+  display: flex;
+
+  a.site-logo {
+    text-decoration: none;
+  }
+
+  .site-name {
+    font-size: 2em;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}

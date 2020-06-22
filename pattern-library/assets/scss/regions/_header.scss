@@ -1,0 +1,21 @@
+header {
+  background-color: $purple-primary;
+  padding: 40px 0;
+  margin-bottom: 20px;
+  color: $white;
+
+  a, a.is-active {
+    color: $white;
+    text-decoration: none;
+  }
+
+  .region-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // Menu Icon
+  i.fa {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+// Buttons
+.button,
+a.button {
+  background-color: $purple-primary;
+  border: none;
+  border-radius: 13px;
+  color: $white;
+  display: inline-block;
+  font-size: $button-size;
+  font-family: $header-font;
+  padding: 18px 50px 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+  &:last-child {
+    margin-right: 0;
+  }
+
+  i.fa {
+    margin-right: 20px;
+  }
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+$primary-font: "Gotham Book", sans-serif;
+$header-font: "Gotham Medium", sans-serif;
+$bold-font: "Gotham Bold", sans-serif;
+$body-font-size: 16px;
+$body-line-height: 1.375;
+$h1-size: $body-font-size * 3.125; // 16px * 3.125 = 50px
+$h2-size: $body-font-size * 2; // 16px * 2 = 32px
+$h3-size: $body-font-size * 1.25; // 16px * 1.25 = 20px
+$button-size: $body-font-size * 1.25; // 16px * 1.25 = 20px
+$layout-container: 979px; // 939px + 2 * 20px padding.
+$header-container: 1279px; // 1239px + 2 * 20px padding.
+
+//Screen Sizes
+$mini-screen: 480px;
+$small-screen: 720px;
+$medium-screen: 960px;
+$large-screen: 1080px;
+$wide-screen: 1280px;
+
+//Colors
+$black-text: #4D4D4F;
+$white: #FFFFFF;
+$gray-d: #707070;
+$gray-l: #A0A0A0;
+$green-d: #1D834B;
+$green-primary: #2CB469;
+$lime-primary: #CADB2C;
+$purple-primary: #664493;
+$purple-l: #AD34A0;
+$turquoise: #03B3AF;
