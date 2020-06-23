@@ -1,0 +1,31 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 40px;
+
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .content {
+    margin-top: 1em;
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  &.bordered {
+    .card {
+      border: 1px solid $gray-l;
+      border-radius: 10px;
+      box-shadow: 2px 2px 12px $gray-d;
+      overflow: hidden;
+
+      .content {
+        padding: 10px;
+      }
+    }
+  }
+}

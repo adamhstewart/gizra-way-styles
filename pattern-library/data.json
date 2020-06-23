@@ -53,6 +53,22 @@
     },
     "groups": [
         {
+            "name": "cards",
+            "title": "Cards",
+            "components": [
+                {
+                    "group": "cards",
+                    "name": "default",
+                    "title": "Default"
+                },
+                {
+                    "group": "cards",
+                    "name": "bordered",
+                    "title": "Bordered"
+                }
+            ]
+        },
+        {
             "name": "media_object",
             "title": "Media Object",
             "components": [
